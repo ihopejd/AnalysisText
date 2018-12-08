@@ -10,10 +10,10 @@ public class TextAnalyse {
     //private static final int CHARS_BUFFER_SIZE = 256;
     private static Scanner scanner = new Scanner(System.in);
     final private static String STATISTICS_FOR_THE_TEXT =
-                    "Количество пробелов: %d \n" +
-                    "Количество символов: %d \n" +
-                    "Количество символов без пробела: %d \n" +
-                    "Количество слов: %d,";
+                    "Кол-во пробелов: %d \n" +
+                    "Кол-во символов: %d \n" +
+                    "Кол-во символов без пробела: %d \n" +
+                    "Кол-во слов: %d,";
     final private static String FILE_PATH =
                     "Введите путь к файлу:\n";
     final private static String ACCESS_ERROR =
@@ -44,7 +44,7 @@ public class TextAnalyse {
         return scanner.nextLine();
     }
     /**
-     * Метод находит количество пробелов в предложениях.
+     * Метод находит количество пробелов.
      * Метод удаляет всё, кроме пробелов и считает их количество.
      */
     private static int countingOfSpace(String fileLine) {
