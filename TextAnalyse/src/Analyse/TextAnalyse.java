@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.*;
 import java.util.Scanner;
 /**
- * Класс для подсчета пробелов,символов,символов без пробелов и количесва слов в текстовом файле
+ * Класс для подсчета пробелов, символов, символов без пробелов и количество слов в текстовом файле
  */
 public class TextAnalyse {
     //private static final int CHARS_BUFFER_SIZE = 256;
