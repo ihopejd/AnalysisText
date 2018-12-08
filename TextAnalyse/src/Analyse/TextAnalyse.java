@@ -57,8 +57,8 @@ public class TextAnalyse {
         return fileLine.length();
     }
     /**
-     * Метод, который подсчитывает количество слов в тексте
-     * с помощью split() рабивает предложения на отдельные слова
+     * Метод, который подсчитывает количество слов в тексте.
+     * С помощью split() разбивает предложения на отдельные слова.
      */
     private static int countingOfWord(String fileLine) {
         fileLine = fileLine.replaceAll(" {2,}", " ");
