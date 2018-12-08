@@ -44,7 +44,7 @@ public class TextAnalyse {
         return scanner.nextLine();
     }
     /**
-     * Метод находит количество пробелов в предложенях.
+     * Метод находит количество пробелов в предложениях.
      * Метод удаляет всё, кроме пробелов и считает их количество.
      */
     private static int countingOfSpace(String fileLine) {
