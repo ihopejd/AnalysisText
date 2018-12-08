@@ -61,7 +61,6 @@ public class TextAnalyse {
      * С помощью split разбивает предложения на отдельные слова.
      */
     private static int countingOfWord(String fileLine) {
-        fileLine = fileLine.replaceAll(" {2,}", " ");
         return fileLine.split(" ").length;
     }
 }
