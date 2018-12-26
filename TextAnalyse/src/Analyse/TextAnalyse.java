@@ -7,7 +7,6 @@ import java.util.Scanner;
  * Класс для подсчета пробелов, символов, символов без пробелов и количество слов в текстовом файле
  */
 public class TextAnalyse {
-    //private static final int CHARS_BUFFER_SIZE = 256;
     private static Scanner scanner = new Scanner(System.in);
     final private static String STATISTICS_FOR_THE_TEXT =
                     "Кол-во пробелов: %d \n" +
